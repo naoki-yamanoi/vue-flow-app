@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import FlowChart from "@/components/FlowChart.vue";
+import { RouterView } from "vue-router";
+import Navbar from "@/components/Navbar.vue";
 </script>
 
 <template>
-  <FlowChart />
+  <Navbar></Navbar>
+  <RouterView></RouterView>
 </template>
 
 <style scoped></style>

@@ -4,7 +4,7 @@ import { VueFlow, useVueFlow } from "@vue-flow/core";
 import { Background } from "@vue-flow/background";
 import { ControlButton, Controls } from "@vue-flow/controls";
 import { MiniMap } from "@vue-flow/minimap";
-import { initialEdges, initialNodes } from "@/components/initial-elements";
+import { initialEdges, initialNodes } from "@/vue-flow-data/initial-elements";
 import Icon from "@/components/Icon.vue";
 
 /**
